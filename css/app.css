@@ -370,6 +370,10 @@ section#sponsorship .list-group .list-group-item-text {
   color: #333333;
 }
 section#team img.img-team {
-  max-width: 300px;
   border: 8px solid white;
+}
+@media (min-width: 330px) {
+  section#team img.img-team {
+    max-width: 300px;
+  }
 }
