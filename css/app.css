@@ -377,3 +377,6 @@ section#team img.img-team {
     max-width: 300px;
   }
 }
+footer .copyright {
+  margin: 50px auto;
+}
