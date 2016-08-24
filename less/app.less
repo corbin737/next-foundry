@@ -1,2 +1,20 @@
 @import (reference) "../vendor/bootstrap/less/variables";
 @import "theme";
+
+section#sponsorship .list-group {
+  text-align: left;
+
+  .list-group-item-heading {
+    .text-primary();
+    span.badge { margin-top: -4px }
+  }
+
+  .list-group-item-text { color: @text-color }
+}
+
+section#team {
+  img.img-team {
+    max-width: 300px;
+    border: 8px solid white;
+  }
+}
