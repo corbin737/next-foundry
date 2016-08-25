@@ -3,7 +3,8 @@
 
 header { background-image: url('../img/header.png') }
 
-section#sponsorship .list-group {
+section#sponsorship .list-group-item {
+  padding: 20px;
   text-align: left;
 
   .list-group-item-heading {
@@ -11,7 +12,10 @@ section#sponsorship .list-group {
     span.badge { margin-top: -4px }
   }
 
-  .list-group-item-text { color: @text-color }
+  .list-group-item-text {
+    color: @text-color;
+    line-height: 28px;
+  }
 }
 
 section#team {

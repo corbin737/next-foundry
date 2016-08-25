@@ -360,17 +360,19 @@ body {
 header {
   background-image: url('../img/header.png');
 }
-section#sponsorship .list-group {
+section#sponsorship .list-group-item {
+  padding: 20px;
   text-align: left;
 }
-section#sponsorship .list-group .list-group-item-heading {
+section#sponsorship .list-group-item .list-group-item-heading {
   color: #F05F40;
 }
-section#sponsorship .list-group .list-group-item-heading span.badge {
+section#sponsorship .list-group-item .list-group-item-heading span.badge {
   margin-top: -4px;
 }
-section#sponsorship .list-group .list-group-item-text {
+section#sponsorship .list-group-item .list-group-item-text {
   color: #333333;
+  line-height: 28px;
 }
 section#team img.img-team {
   border: 8px solid white;
